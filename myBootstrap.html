@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <!-- Author: Lori Herkamp
+	   Date: October 31, 2016
+	   -->
+		
+  <title>Lori Herkamp Week 5 Bootstrap</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  
+  <link href="https://fonts.googleapis.com/css?family=Lora|Raleway" rel="stylesheet">
+  
+  <style>
+  <!--
+  
+  .jumbotron {
+		font-family: 'Lora', serif;
+		background-image: url('images/leaves.jpg');
+		width: 100%;
+		color: black;
+		}
+	h1{
+		font-weight: bold;
+		}	
+	
+	h2 {
+		font-family: 'Lora', serif;
+		text-decoration: none;
+		color: black;
+		text-align: center;
+		}
+		
+	h3 {
+		font-family: 'Lora', serif;
+		text-decoration: none;
+		color: black;
+		text-align: center;
+		}
+		
+	section {
+		font-family: 'Raleway', sans-serif;
+		color: black;
+		}
+	footer {
+		font-family: 'Lora', serif;
+		font-weight: bold;
+		background-color: #b4b6a1;
+		color: white;
+		text-align: center;
+		margin-top: 20px;
+		}
+		
+	.btn-primary {
+		border: 0;
+		background-color: black;
+		color: white;
+		}
+	
+	#custom-bootstrap-menu.navbar-default .navbar-brand {
+		color: rgba(47, 59, 75, 1);
+
+	}
+	
+	#custom-bootstrap-menu.navbar-default {
+		font-family: 'Lora', serif;
+		font-weight: bold;
+		font-size: 18px;
+		background-color: rgba(180, 182, 161, 1);
+		background: -webkit-linear-gradient(top, rgba(229, 230, 222, 1) 0%, rgba(180, 182, 161, 1) 100%);
+		background: linear-gradient(to bottom, rgba(229, 230, 222, 1) 0%, rgba(180, 182, 161, 1) 100%);
+		border-width: 1px;
+		border-radius: 4px;
+	}
+
+	#custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
+    color: rgba(47, 59, 75, 1);
+    background-color: rgba(229, 230, 222, 1);
+	}
+
+	#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover,
+	#custom-bootstrap-menu.navbar-default .navbar-nav>li>a:focus {
+    color: rgba(229, 230, 222, 1);
+    background-color: rgba(47, 59, 75, 1);
+	}
+	#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a,
+	#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:hover,
+	#custom-bootstrap-menu.navbar-default .navbar-nav>.active>a:focus {
+    color: rgba(180, 182, 161, 1);
+    background-color: rgba(47, 59, 75, 1);
+	}
+	#custom-bootstrap-menu.navbar-default .navbar-toggle {
+    border-color: #2f3b4b;
+	}
+	#custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
+	#custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
+    background-color: #2f3b4b;
+	}
+	#custom-bootstrap-menu.navbar-default .navbar-toggle .icon-bar {
+    background-color: #2f3b4b;
+	}
+	#custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
+	#custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
+    background-color: #b4b6a1;
+	}
+
+	-->
+	
+   </style>
+	
+  
+  </head>
+  
+  <body>
+	<main class="container-fluid">
+	
+		<div id="custom-bootstrap-menu" class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+        <div class="navbar-header"><a class="navbar-brand" href="#">HERKAMP HIDEAWAY</a>
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-menubuilder"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
+            </button>
+        </div>
+        <div class="collapse navbar-collapse navbar-menubuilder">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Home</a>
+                </li>
+                <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">
+					Events
+					<span class="caret"></span>
+					</a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Hikes</a></li>
+						<li><a href="#">Wineries</a></li>
+						<li><a href="#">Events</a></li>
+					</ul>
+                <li><a href="Menu">Menu</a>
+                </li>
+                <li><a href="Contact">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+	
+		
+		<header class="jumbotron jumbotron-fluid">
+			<div class="container">
+				<h1 class="display-3">Adventure Awaits at Herkamp Hideaway<h1>
+				
+				<p class="lead" style="font-weight: bold;">Don't miss out on all of the local fall events! </P>
+				<p class="lead">
+				<a class="btn btn-primary btn-lg" href="#" role="button">See More</a>
+				</p>
+			</div>
+			
+		</header>
+	
+
+
+
+	
+		<section class="row-container">
+			<article class="col-md-4 col-md-offset-2">
+			<h2>October Menu</h2>
+			<p>Lorem ipsum dolor sit amet, condimentum eget ac molestie a. 
+			Metus accumsan libero et vestibulum, nisi aliquet, duis pellentesque,
+			harum vehicula laoreet platea aliquam. Platea viverra, scelerisque placerat
+			et magna, nam risus orci hendrerit, ut lacinia nostra vitae nunc aliquam. 
+			Gravida in convallis sodales, vel proin velit cras, ut nullam vestibulum et mauris,
+			integer vitae justo tempus tortor dictum faucibus, felis vivamus cras fermentum vel metus.
+			Lobortis odio nec scelerisque, egestas nulla consectetuer vitae tortor. </p>
+			<div class="row-container-fluid">
+			<p class="col-md-8"><img src="images/apples.jpg" alt="Hot Cider" width=100%/>hot cider </p>
+			<p class="col-md-4">Our October menu will feature local apples and ciders!</p>
+			</div>
+			</article>
+		
+		
+			<article class="col-md-4">
+			<h2>Local Wine Tasting</h2>
+			<p>Lorem ipsum dolor sit amet, condimentum eget ac molestie a. 
+			Metus accumsan libero et vestibulum, nisi aliquet, duis pellentesque,
+			harum vehicula laoreet platea aliquam. Platea viverra, scelerisque placerat
+			et magna, nam risus orci hendrerit, ut lacinia nostra vitae nunc aliquam. 
+			Gravida in convallis sodales, vel proin velit cras, ut nullam vestibulum et mauris,
+			integer vitae justo tempus tortor dictum faucibus, felis vivamus cras fermentum vel metus.
+			Lobortis odio nec scelerisque, egestas nulla consectetuer vitae tortor. </p>
+			
+			<div class="row-container-fluid">
+			<p class="col-md-8"><img src="images/winegrapes.jpg" alt="Wine grapes" width=100%/>wine grapes </p>
+			<p class="col-md-4">A story about wine grapes! I'm just trying to figure out how to divide space and make columns and images within coulumns.</p>
+			</div>
+			</article>
+			</section>
+
+	
+			<section class="row-container text-center">
+			<article class="col-sm-3">
+			<h3><a href="events">Pumpkin Carving</a></h3>
+			<img src="images/pumpkins.jpg" class="img-rounded" alt="Carved Pumpkins" style="width:275px;height:200px;"/>
+			</article>
+			
+			<article class="col-sm-3" >
+			<h3><a href="hikes">Wildlife Hikes</a></h3>
+			<img src="images/fox.jpg" class="img-rounded" alt="Fall Fox" style="height:200px;"/>
+			</article>
+			
+			<article class="col-sm-3">
+			<h3><a href="events">Fall Festivals</a></h3>
+			<img src="images/tree.png" class="img-rounded" alt="Fall Festivals" style="height:200px;"/>
+			</article>
+			
+			<article class="col-sm-3">
+			<h3><a href="events">Pumpkin Patches</a></h3>
+			<img src="images/barn.jpg" class="img-rounded" alt="Pumpkin Patches" style="height:200px;"/>
+			</article>
+			</section>
+	
+
+		
+		<div class="col-md-12">
+		<footer class="row-container">
+		<p>Herkamp Hideaway 503-512-5512</p>
+		</footer>
+		</div>
+	</main>
+  </body>
+  </html>
